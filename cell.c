@@ -1,5 +1,7 @@
 #include "cell.h"
 
+scm_t_bits cell_tag;
+
 SCM make_cell (SCM s_x, SCM s_y, SCM s_status) {
 	SCM smob;
 	struct cell *cell;

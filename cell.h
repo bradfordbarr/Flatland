@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <libguile.h>
 
-scm_t_bits cell_tag;
+extern scm_t_bits cell_tag;
 
 struct cell {
 	int x, y;
